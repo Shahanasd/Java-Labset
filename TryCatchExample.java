@@ -14,7 +14,7 @@ public class TryCatchExample{
 			}
 			System.out.println("Answer: "+c);
 		}catch(ArithmeticException e){
-			System.out.println(e);
+			System.out.println("Error:"+e.getMessage());
 		}
 	}
 }
